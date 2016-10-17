@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CategoryArray">
+        <item>@string/spinnerText1</item>
+        <item>@string/spinnerText2</item>
+        <item>@string/spinnerText3</item>
+        <item>@string/spinnerText4</item>
+        <item>@string/spinnerText5</item>
+        <item>@string/spinnerText6</item>
+        <item>@string/spinnerText7</item>
+        <item>@string/spinnerText8</item>
+
+    </string-array>
+    <string-array name="CategoryArray_addAnnouncement">
+        <item>@string/spinnerText0</item>
+        <item>@string/spinnerText2</item>
+        <item>@string/spinnerText3</item>
+        <item>@string/spinnerText4</item>
+        <item>@string/spinnerText5</item>
+        <item>@string/spinnerText6</item>
+        <item>@string/spinnerText7</item>
+        <item>@string/spinnerText8</item>
+    </string-array>
+
+    <string-array name="contextMenuMyAnnouncement">
+        <item>@string/textContextMenuShow</item>
+        <item>@string/textContextMenuModify</item>
+        <item>@string/textContextMenu</item>
+    </string-array>
+
+    <string-array name="contextMenuHistory">
+        <item>@string/textContextMenuShow</item>
+        <item>@string/textContextMenu</item>
+    </string-array>
+
+</resources>

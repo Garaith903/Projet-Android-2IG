@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/PowderBlue">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text ="@string/SearchCategory"
+                android:id="@+id/textCategorySearch"
+                android:layout_marginTop="10dp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerCategory"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text ="@string/SearchType"
+                android:id="@+id/textTypeSearch"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioGroup
+                    android:id="@+id/groupType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checkedButton="@+id/TypeRadio1"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/TypeRadio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SearchRadio1"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/TypeRadio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SearchRadio2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/TypeRadio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SearchRadio3"
+
+                        />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/ActivateSearchDate"
+                android:id="@+id/activateResearchDate"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text ="@string/StartDateResearch"
+                android:id="@+id/textStartDate"
+                android:layout_marginTop="10dp"/>
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/StartDatePicker"
+                android:datePickerMode ="spinner"
+                android:calendarViewShown = "false"
+                android:background="@color/White"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text ="@string/EndDateResearch"
+                android:id="@+id/textEndDate"
+                android:layout_marginTop="10dp"/>
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/EndDatePicker"
+                android:datePickerMode ="spinner"
+                android:calendarViewShown = "false"
+                android:background="@color/White"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SearchButtonText"
+            android:id="@+id/validateResearch"
+            android:background="@color/Blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:ems="10"/>
+
+
+    </LinearLayout>
+</ScrollView>

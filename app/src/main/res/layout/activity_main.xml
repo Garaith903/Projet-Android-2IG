@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:stretchColumns="*"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_centerInParent="true"
+        >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/profil"
+
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+
+                android:src = "@drawable/profil"
+                android:background="@color/Green"
+                />
+
+            <ImageButton
+                android:id="@+id/search"
+
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+
+                android:src = "@drawable/search"
+                android:background="@color/Blue"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/add_Announcement"
+
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+
+                android:src = "@drawable/addannouncement"
+                android:background="@color/Yellow"/>
+
+            <ImageButton
+                android:id="@+id/manager_Announcement"
+
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+
+                android:src = "@drawable/managerannouncement"
+                android:background="@color/Red"/>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

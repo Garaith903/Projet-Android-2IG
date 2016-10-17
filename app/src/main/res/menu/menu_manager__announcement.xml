@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.henallux.deal_it_version_1.view.Manager_Announcement">
+
+    <item android:id = "@+id/profil"
+        android:title="@string/title_menu_profil"
+        android:icon = "@drawable/profil"
+        app:showAsAction = "never" />
+
+    <item android:id="@+id/search"
+        android:title="@string/title_menu_search"
+        android:icon="@drawable/search"
+        app:showAsAction="never" />
+
+    <item android:id = "@+id/add_Announcement"
+        android:title="@string/title_menu_addAnnouncement"
+        app:showAsAction = "never" />
+</menu>

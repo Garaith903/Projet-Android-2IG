@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Deal-it</string>
+
+    <string name="LoginText">Login:</string>
+    <string name="PasswordText">Mot de passe:</string>
+    <string name="LoginEditText">etuxxxx</string>
+    <string name="connectionButton">connexion</string>
+    <string name="ErrorConnection">Login ou mot de passe incorrect</string>
+    <string name="ConnectionEtablished">Bienvenue </string>
+    <string name="ErrorInternet">Error vérrifier la connection internet</string>
+    <string name="ErrorImage">"Erreur image"</string>
+
+    <string name="id_profil">Id</string>
+    <string name="name_profil">Nom</string>
+    <string name="firstname_profil">Prénom</string>
+    <string name="adress_profil">Adresse</string>
+    <string name="nation_profil">Nationnalité</string>
+    <string name="email_profile">Email</string>
+    <string name="sexe_profil">Sexe</string>
+    <string name="phone_number">Téléphone</string>
+
+    <string name="Error">Erreurr</string>
+    <string name="ErrorID">Erreur, identifiant non valide</string>
+    <string name="ErrorGender">Erreur, caractère du sexe non valide</string>
+    <string name="ErrorType">Erreur, type d\'annonce non valide</string>
+    <string name="ErrorTitleLenght">Erreur, dépassant la longueur du texte autorisée.</string>
+    <string name="ErrorTitleEmpty">Erreur, titre vide</string>
+    <string name="ErrorDescriptionLenght">Erreur, dépassant la longueur du texte autorisée.</string>
+    <string name="ErrorDescriptionEmpty">Erreur, description vide.</string>
+    <string name="ErrorPhoneNumber">Erreur, numero de téléphone incorrect</string>
+    <string name="ErrorEmail">Erreur, adresse email invalide</string>
+    <string name="ErrorDate">Erreur,la date de début doit être antérieur à la date de fin</string>
+    <string name="ErrorDateAnnouncement">Error la date de l\'annonce est posterieur à la date du jour</string>
+
+    <string name="hello_world">Bonjour</string>
+    <string name="action_settings">Parametres</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_search">Recherche d\'une annonce</string>
+    <string name="title_activity_add__announcement">Ajout d\'une annonce</string>
+    <string name="title_activity_manager__announcement">Gestionnaire d\'annonce</string>
+    <string name="title_menu_profil">Profil</string>
+    <string name="title_menu_search">Recherche</string>
+    <string name="title_menu_addAnnouncement">Ajout</string>
+    <string name="title_menu_manageAnnouncement">Gestion</string>
+    <string name="title_menu_edit">Editer</string>
+    <string name="title_menu_delete">Supprimer</string>
+    <string name="title_activity_connection">ConnectionActivity</string>
+
+    <string name="SearchCategory">Categorie:</string>
+    <string name="SearchType">Type:</string>
+    <string name="ActivateSearchDate">Recherche par date</string>
+    <string name="SearchRadio1">Toutes</string>
+    <string name="SearchRadio2">Offre</string>
+    <string name="SearchRadio3">Demande</string>
+    <string name="SearchButtonText">Rechercher</string>
+    <string name="StartDateResearch">Selectinnez une date de départ</string>
+    <string name="EndDateResearch">Selectionnez une date de fin</string>
+    <string name="ErrorDateCompare">Erreur, la date de fin doit être plus récente que la date de début</string>
+    <string name="resultResearch">Résultats de la recherche:</string>
+    <string name="ListEmpty">Liste vide</string>
+    <string name="ParseError">Ce n\'est pas un nombre</string>
+
+    <string name="spinnerText0">Selectionnez une catégorie</string>
+    <string name="spinnerText1">Toutes</string>
+    <string name="spinnerText2">Ecole</string>
+    <string name="spinnerText3">Informatique</string>
+    <string name="spinnerText4">Logement</string>
+    <string name="spinnerText5">Loisir</string>
+    <string name="spinnerText6">Nourriture</string>
+    <string name="spinnerText7">Santé</string>
+    <string name="spinnerText8">Transport</string>
+
+    <string name="Category0">Selectionnez une catégorie</string>
+    <string name="Category1">Toutes</string>
+    <string name="Category2">Ecole</string>
+    <string name="Category3">Informatique</string>
+    <string name="Category4">Logement</string>
+    <string name="Category5">Loisir</string>
+    <string name="Category6">Nourriture</string>
+    <string name="Category7">Santé</string>
+    <string name="Category8">Transport</string>
+    <string name="Type1">Toutes</string>
+    <string name="Type2">Offre</string>
+    <string name="Type3">Demande</string>
+
+    <string name="title_activity_search_activity_list_view">Résultats de la recherche</string>
+
+    <string name="offer_announcement">Offre</string>
+    <string name="request_announcement">Demande</string>
+    <string name="title_announcement">Titre</string>
+    <string name="description_announcement">Description (500 mots)</string>
+    <string name="prize_announcement">Prix: </string>
+    <string name="euro"> €</string>
+    <string name="button_announcement">Poster</string>
+
+    <string name="title_activity_search_activity_announcement">Détails de l\'annonce</string>
+
+    <string name="AddConsultationWellDone">Consultation ajoutée à votre historique</string>
+    <string name="title_activity_user_announcement_list">Vos annonces</string>
+    <string name="title_activity_user_history_list">Votre historique</string>
+
+    <string name="advertisngContextMenu">Maintener le clique sur l\'élément désiré afin de faire apparaître le menu contextuel</string>
+    <string name="textContextMenuShow">Consulter</string>
+    <string name="textContextMenuModify">Modifier</string>
+    <string name="textContextMenu">Supprimer</string>
+    <string name="DeleteConfirmation">Votre annonce a été supprimée</string>
+
+    <string name="interractWarning">Pour interragir avec la liste, maintenez le click</string>
+    <string name="actionDeleteAllHistory">Vider historique</string>
+    <string name="DeleteConsultationConfirmation">La consultation a été supprimée</string>
+
+    <string name="button_edition_announcement">Modifier</string>
+    <string name="title_activity_edit_announcement">Modifier annonce</string>
+    <string name="ModifyAnnouncementWellDone">Modifications réalisées avec succes</string>
+    <string name="AddAnnouncementWellDone">Annonce ajoutée avec succes</string>
+    <string name="DeleteAnnouncementConfirmation">Annonce supprimée</string>
+    <string name="ErrorDescriptionLength">Taille description non valide</string>
+    <string name="ErrorUsingSquare">L\'utilisation du caractère \'#\' n\'est pas autorisée</string>
+    <string name="ErrorTitleLength">Taille du titre non valide</string>
+
+</resources>
